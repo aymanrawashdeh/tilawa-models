@@ -1,0 +1,11 @@
+ggml-base-ar-quran.bin
+
+Original work: tarteel-ai/whisper-base-ar-quran
+https://huggingface.co/tarteel-ai/whisper-base-ar-quran
+Licensed under the Apache License, Version 2.0.
+Fine-tuned from OpenAI Whisper base (MIT License).
+
+Changes: the Hugging Face Transformers checkpoint was converted to
+whisper.cpp's ggml format, with weights stored as 16-bit floats, and packaged
+with Whisper's mel filters and the model's vocabulary. The weights were not
+retrained or otherwise changed.
